@@ -10,7 +10,7 @@ function preload() {
 
 /* The image will start at a random x and y position */
 function setup() {
-  createCanvas(1536, 864); // My screen size is 1536x864. Feel free to change this to match your screen size.
+  createCanvas(window.screen.width, window.screen.height); // My screen size is 1536x864. Feel free to change this to match your screen size.
 	x = random(width);
 	y = random(height);
 	
